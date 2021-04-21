@@ -1,0 +1,152 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 194676793,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user has to be in the CrazySales login page",
+            "match": {
+              "location": "LoginSteps.the_user_has_to_be_in_the_CrazySales_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2939200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 110594351301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario1()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "To validate the registration functionality",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-crazysales-application;to-validate-the-registration-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 49004586,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4067797090,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario1(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 48119503,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user fill the \"Shobi\" and \"123456\" and \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shobi\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginSteps.the_user_fill_the_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87482,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on create new button",
+            "match": {
+              "location": "LoginSteps.click_on_create_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdefinition.LoginSteps.theUserWasRegisteredSucessfully(LoginSteps.java:62)\r\n\tat ✽.The user  was registered sucessfully(C:/Users/PREMA/eclipse-workspace/Cucumber_7.30PM/src/test/resources/Features/login.feature:20)\r\n",
+              "duration": 728589267,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "The user  was registered sucessfully",
+            "match": {
+              "location": "LoginSteps.theUserWasRegisteredSucessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of CrazySales Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-crazysales-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/PREMA/eclipse-workspace/Cucumber_7.30PM/src/test/resources/Features/login.feature",
+    "tags": [
+      {
+        "name": "@E2E",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="115.844767">
+<testcase classname="To validate the login functionality of CrazySales Application" name="To validate the registration functionality" time="115.844767">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.LoginSteps.theUserWasRegisteredSucessfully(LoginSteps.java:62)&#13;&#10;&#9;at ✽.The user  was registered sucessfully(C:/Users/PREMA/eclipse-workspace/Cucumber_7.30PM/src/test/resources/Features/login.feature:20)&#13;&#10;"><![CDATA[Given The user has to be in the CrazySales login page.......................passed
+When The user fill the "Shobi" and "123456" and "123456"....................passed
+And click on create new button..............................................passed
+Then The user  was registered sucessfully...................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.LoginSteps.theUserWasRegisteredSucessfully(LoginSteps.java:62)
+	at ✽.The user  was registered sucessfully(C:/Users/PREMA/eclipse-workspace/Cucumber_7.30PM/src/test/resources/Features/login.feature:20)
+]]></failure>
+</testcase>
+</testsuite>
